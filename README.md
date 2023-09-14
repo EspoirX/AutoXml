@@ -2,7 +2,17 @@
 backgroundlibrary 的简化版，主要是提供圆角边框等用得最频繁的功能
 
 ## 使用
+```gradle
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
 
+dependencies {
+      implementation 'com.github.EspoirX:AutoXml:v1.0.0'
+}
+```
 
 
 ## 代码提示
