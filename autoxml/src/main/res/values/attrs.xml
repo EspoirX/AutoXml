@@ -13,7 +13,7 @@
 
         <attr name="shape_solid_color" format="color" />
 
-        <attr name="shape_corner" format="dimension" />
+        <attr name="shape_corner_radius" format="dimension" />
         <attr name="shape_corner_bottom_left" format="dimension" />
         <attr name="shape_corner_bottom_right" format="dimension" />
         <attr name="shape_corner_top_left" format="dimension" />
@@ -67,16 +67,7 @@
     </declare-styleable>
 
 
-    <declare-styleable name="shape_other">
-        <attr name="shape_position" format="enum">
-            <enum name="left" value="1" />
-            <enum name="top" value="2" />
-            <enum name="right" value="4" />
-            <enum name="bottom" value="8" />
-        </attr>
 
-        <attr name="shape_function" format="string"/>
-    </declare-styleable>
 
 
     <declare-styleable name="shape_text">

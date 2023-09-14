@@ -1,0 +1,201 @@
+<templateSet group="AutoXml">
+  <template name="shape_type" value="app:shape_shape=&quot;$value$&quot;" description="shape类型" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_alpha" value="app:shape_alpha=&quot;$value$&quot;" description="shape透明度" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_solid_color" value="app:shape_solid_color=&quot;$value$&quot;" description="填充颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_corner_radius" value="app:shape_corner_radius=&quot;$value$&quot;" description="圆角宽度" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_corner_bottom_left" value="app:shape_corner_bottom_left=&quot;$value$&quot;" description="左下圆角宽度" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_corner_bottom_right" value="app:shape_corner_bottom_right=&quot;$value$&quot;" description="右下圆角宽度" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_corner_top_right" value="app:shape_corner_top_right=&quot;$value$&quot;" description="右上圆角宽度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_corner_top_left" value="app:shape_corner_top_left=&quot;$value$&quot;" description="左上圆角宽度" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_angle" value="app:shape_gradient_angle=&quot;$value$&quot;" description="渐变角度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_centerX" value="app:shape_gradient_centerX=&quot;$value$&quot;" description="渐变中心X" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_centerY" value="app:shape_gradient_centerY=&quot;$value$&quot;" description="渐变中心Y" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_centerColor" value="app:shape_gradient_centerColor=&quot;$value$&quot;" description="渐变中心颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_endColor" value="app:shape_gradient_endColor=&quot;$value$&quot;" description="渐变结束颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_startColor" value="app:shape_gradient_startColor=&quot;$value$&quot;" description="渐变开始颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_gradientRadius" value="app:shape_gradient_gradientRadius=&quot;$value$&quot;" description="渐变角度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_type" value="app:shape_gradient_type=&quot;$value$&quot;" description="渐变类型" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_gradient_useLevel" value="app:shape_gradient_useLevel=&quot;$value$&quot;" description="useLevel" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_size_width" value="app:shape_size_width=&quot;$value$&quot;" description="宽度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_size_height" value="app:shape_size_height=&quot;$value$&quot;" description="宽度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_stroke_width" value="app:shape_stroke_width=&quot;$value$&quot;" description="边框高度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_stroke_color" value="app:shape_stroke_color=&quot;$value$&quot;" description="边框颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_stroke_dashWidth" value="app:shape_stroke_dashWidth=&quot;$value$&quot;" description="边框间隔宽度" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_stroke_dashGap" value="app:shape_stroke_dashGap=&quot;$value$&quot;" description="stroke_dashGap" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_ripple_enable" value="app:shape_ripple_enable=&quot;$value$&quot;" description="水波纹效果" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_ripple_color" value="app:shape_ripple_color=&quot;$value$&quot;" description="水波纹颜色" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_position" value="app:shape_position=&quot;$value$&quot;" description="drawable位置" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+
+  <template name="shape_padding_left" value="app:shape_padding_left=&quot;$value$&quot;" description="paddingLeft属性" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_padding_top" value="app:shape_padding_top=&quot;$value$&quot;" description="paddingTop属性" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_padding_bottom" value="app:shape_padding_bottom=&quot;$value$&quot;" description="paddingBottom属性" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_padding_right" value="app:shape_padding_right=&quot;$value$&quot;" description="paddingRight属性" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_text_gradient_startColor" value="app:shape_text_gradient_startColor=&quot;$value$&quot;" description="文字渐变起始颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_text_gradient_endColor" value="app:shape_text_gradient_endColor=&quot;$value$&quot;" description="文字渐变结束颜色" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="shape_text_gradient_orientation" value="app:shape_text_gradient_orientation=&quot;$value$&quot;" description="文字渐变方向" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

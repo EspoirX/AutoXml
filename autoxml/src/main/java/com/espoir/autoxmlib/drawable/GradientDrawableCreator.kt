@@ -35,7 +35,7 @@ class GradientDrawableCreator(private val typedArray: TypedArray, private val gr
                 drawable.shape = typedArray.getInt(attr, 0)
             } else if (attr == R.styleable.autoxml_shape_solid_color) {
                 solidColor = typedArray.getColor(attr, 0)
-            } else if (attr == R.styleable.autoxml_shape_corner) {
+            } else if (attr == R.styleable.autoxml_shape_corner_radius) {
                 drawable.cornerRadius = typedArray.getDimension(attr, 0f)
             } else if (attr == R.styleable.autoxml_shape_corner_bottom_left) {
                 cornerRadius[6] = typedArray.getDimension(attr, 0f)
