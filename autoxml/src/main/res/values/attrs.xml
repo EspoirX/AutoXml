@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="autoxml">
+        <attr name="shape_type" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+
+        <attr name="shape_alpha" format="float" />
+
+        <attr name="shape_solid_color" format="color" />
+
+        <attr name="shape_corner" format="dimension" />
+        <attr name="shape_corner_bottom_left" format="dimension" />
+        <attr name="shape_corner_bottom_right" format="dimension" />
+        <attr name="shape_corner_top_left" format="dimension" />
+        <attr name="shape_corner_top_right" format="dimension" />
+
+        <attr name="shape_gradient_angle" format="integer" />
+        <attr name="shape_gradient_centerX" format="float" />
+        <attr name="shape_gradient_centerY" format="float" />
+        <attr name="shape_gradient_centerColor" format="color" />
+        <attr name="shape_gradient_endColor" format="color" />
+        <attr name="shape_gradient_startColor" format="color" />
+        <attr name="shape_gradient_gradientRadius" format="dimension" />
+        <attr name="shape_gradient_type" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+
+
+        <attr name="shape_gradient_useLevel" format="boolean" />
+
+        <attr name="shape_padding_left" format="dimension" />
+        <attr name="shape_padding_top" format="dimension" />
+        <attr name="shape_padding_right" format="dimension" />
+        <attr name="shape_padding_bottom" format="dimension" />
+
+        <attr name="shape_size_width" format="dimension">
+            <enum name="wrap_content" value="-2" />
+            <enum name="match_parent" value="-1" />
+        </attr>
+        <attr name="shape_size_height" format="dimension">
+            <enum name="wrap_content" value="-2" />
+            <enum name="match_parent" value="-1" />
+        </attr>
+
+        <attr name="shape_stroke_width" format="dimension" />
+        <attr name="shape_stroke_color" format="color" />
+        <attr name="shape_stroke_dashWidth" format="dimension" />
+        <attr name="shape_stroke_dashGap" format="dimension" />
+
+
+        <attr name="shape_ripple_enable" format="boolean" />
+        <attr name="shape_ripple_color" format="color" />
+
+        <attr name="shape_stroke_position" format="flags">
+            <flag name="left" value="2" />
+            <flag name="top" value="4" />
+            <flag name="right" value="8" />
+            <flag name="bottom" value="16" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="shape_other">
+        <attr name="shape_position" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="4" />
+            <enum name="bottom" value="8" />
+        </attr>
+
+        <attr name="shape_function" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="shape_text">
+        <attr name="shape_text_gradient_startColor" format="color|reference" />
+        <attr name="shape_text_gradient_endColor" format="color|reference" />
+        <attr name="shape_text_gradient_orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
