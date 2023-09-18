@@ -5,7 +5,7 @@ import android.graphics.LinearGradient
 import android.graphics.Shader
 import android.util.AttributeSet
 import android.widget.TextView
-import com.espoir.autoxml.R
+import com.espoir.autoxmlib.R
 
 class TextViewGradientColor : ITextViewOperator {
     private var endColor = -1

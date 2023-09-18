@@ -5,7 +5,7 @@ import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
 import android.os.Build
-import com.espoir.autoxml.R
+import com.espoir.autoxmlib.R
 import org.xmlpull.v1.XmlPullParserException
 
 class GradientDrawableCreator(private val typedArray: TypedArray, private val gradientState: Int = -1) :

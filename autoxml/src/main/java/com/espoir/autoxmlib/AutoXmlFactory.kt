@@ -18,7 +18,7 @@ import android.view.LayoutInflater.Factory2
 import android.view.View
 import android.widget.TextView
 import androidx.collection.ArrayMap
-import com.espoir.autoxml.R
+import com.espoir.autoxmlib.R
 import com.espoir.autoxmlib.drawable.DrawableFactory
 import com.espoir.autoxmlib.drawable.TextViewFactory
 import java.lang.reflect.Constructor
