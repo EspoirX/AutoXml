@@ -1,6 +1,8 @@
 # AutoXml
 backgroundlibrary 的简化版，主要是提供圆角边框等用得最频繁的功能
 
+[![](https://jitpack.io/v/EspoirX/AutoXml.svg)](https://jitpack.io/#EspoirX/AutoXml)
+
 ## 使用
 ```gradle
 allprojects {
